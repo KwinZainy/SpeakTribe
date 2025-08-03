@@ -4,7 +4,7 @@ const Action = () => {
   return (
     <div className=' flex max-w-[1800px] mx-auto justify-center items-center gap-14 my-24 max-tablet:flex-col-reverse'>
         <section>
-            <img src="./last.jpg" alt="" className=' w-[400px] max-tablet:w-[700px] max-mobile:w-[360px] rounded-[40px]' />
+            <img src="./last.jpg" alt="" className=' w-[500px] max-tablet:w-[700px] max-mobile:w-[360px] rounded-[40px]' />
         </section>
         <section className='max-w-[600px]'>
             <div>
