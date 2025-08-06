@@ -1,10 +1,11 @@
 import React from 'react'
-import HomePage from './pages/HomePage'
+import Landing from './pages/Landing'
+
 
 const App = () => {
   return (
     <div>
-      <HomePage/>
+      <Landing/>
     </div>
   )
 }
