@@ -1,8 +1,8 @@
 import React from 'react'
-import { IoPersonCircleSharp } from "react-icons/io5";
+import Menu from '../components/Menu';
 const Nav = () => {
   return (
-    <div className=' flex justify-between py-3 px-34 max-mobile:px-0'>
+    <div className=' flex justify-between py-3 px-34 max-mobile:px-10 max-tablet:px-14'>
        <section className=' flex gap-6 items-center'>
         <img src="./speaktribe-logo.png" alt="" className=' w-[90px]'/>
         <p className=' max-tablet:hidden'>DashBoard</p>
@@ -10,8 +10,9 @@ const Nav = () => {
         </section> 
        <section className=' flex gap-5 items-center'>
         <p className=' max-tablet:hidden'>Log Out</p>
-        <IoPersonCircleSharp size={30}/>
+        <Menu/>
         </section> 
+        
     </div>
   )
 }
