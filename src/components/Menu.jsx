@@ -16,13 +16,13 @@ const Menu = () => {
               {drop? <ImCancelCircle size={35} className=' left-'/>: <IoPersonCircleSharp size={40} />} 
                </div>
                </div>
-               {/* <div className='flex flex-col gap-4 mx-auto  max-tablet:mt-3 max-mobile:gap-2 '>
+               <div className='flex flex-col gap-4 mx-auto  max-tablet:mt-3 max-mobile:gap-2 '>
                 <p cl>DashBoard</p> 
                 <p>Profile</p> 
                 <p>About</p> 
                 <p>Log Out</p>
                 
-             </div> */}
+             </div>
            </div>
            
      )}
