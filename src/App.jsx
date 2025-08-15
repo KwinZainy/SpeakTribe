@@ -6,7 +6,7 @@ import HomePage from './pages/HomePage'
 const App = () => {
   return (
     <div>
-      <Landing/>
+      <Home />
      <Footer/>
     </div>
   )
